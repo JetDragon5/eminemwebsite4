@@ -1,0 +1,67 @@
+div{
+    padding: 7px;
+}
+.line{
+    background-color: rgb(215, 246, 254);
+    height: 9px;
+    width: 120px;
+    margin: 9px auto;
+}
+body{
+    text-align: center;
+    background-color: black;
+    color: white;
+
+}
+.photo{
+    margin-bottom: -75px;
+    z-index: 0;
+    
+}
+.hi{
+    z-index: 100;
+    margin-top: -25px;
+    outline-width: 10px;
+   outline-color: black;
+
+}
+#header{
+    background-color: linear-gradient(white, black);
+}
+#name {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 20px;
+    font-style: normal;
+  }
+.menulinks{
+    float: left;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    text-decoration: none;
+}
+.menulinks:hover{
+font-size: 30px;
+text-decoration:overline;
+text-decoration:underline;
+}
+.menu{
+    text-align: center;
+    position: fixed ;
+    top: 0px;
+    width: 100%;
+    height: 50;
+    z-index: 100;
+    cursor: pointer;
+    list-style: none;
+    float: right;
+    background-color: black;
+    font-size: 20px;
+    color: cyan;
+}
+.divvv h3{
+ display: inline;
+}
